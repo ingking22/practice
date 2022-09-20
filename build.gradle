@@ -18,6 +18,10 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web-services'
     providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    // mysql 의존성 추가
+    implementation 'mysql:mysql-connector-java'
+    //implementation 'org.spring'
+
 }
 
 tasks.named('test') {
